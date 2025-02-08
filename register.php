@@ -1,9 +1,9 @@
 <?php
-$host = "localhost";
-$user = "root";
+$host = "";
+$user = "";
 $password = "";
 $dbname = "women_safety";
-$conn = mysqli_connect("localhost","root","","women_safety");
+$conn = mysqli_connect("","","","women_safety");
 
 // Check connection
 if (!$conn) {
