@@ -91,9 +91,9 @@ include("db.php");
     <!-- Select Contacts -->
     <label for="contacts">Send To:</label>
     <select id="contacts">
-        <option value="contact1">01800000908</option>
-        <option value="contact2">01985644444</option>
-        <option value="contact3">01600000056</option>
+        <option value="contact1">01xxxxxxxxx</option>
+        <option value="contact2">01xxxxxxxxx</option>
+        <option value="contact3">01xxxxxxxxx</option>
     </select>
 
     <!-- Send Button -->
