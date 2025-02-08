@@ -1,0 +1,292 @@
+
+  body {
+   font-family: 'Poppins', sans-serif; 
+  background: url('assests/red.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+
+  
+}
+
+h4 {
+  font-size: 3em;  
+  font-weight: 900;
+  text-transform: capitalize; 
+  color: hsl(333, 23%, 91%);
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+ h5{
+  font-size: 1.3em;  
+  font-weight: 900;
+  text-transform: capitalize; 
+  color: hsl(333, 23%, 91%);
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+h6 {
+  font-size: 1.3em;  
+  font-weight: 900;
+  text-transform: capitalize; 
+  color: hsl(333, 23%, 91%);
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+
+h1{
+  font-size: 3em;  /* Increased visibility */
+  font-weight: 900;
+  text-transform: uppercase; 
+  text-align: center;
+  color: hsl(333, 23%, 91%);
+  /* padding-left: 435px; */
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 3em;  /* Slightly smaller than h1 */
+  font-weight: 900;
+  text-transform: capitalize;
+  text-align: center;  
+  color: hsl(333, 23%, 91%);/* Different color for distinction */
+  /* padding-left: 620px; */
+  margin-bottom: 15px;
+}
+h3 {
+  font-size: 3em;  
+  font-weight: 900;
+  text-transform: capitalize; 
+  text-align: center;  
+  color: hsl(333, 23%, 91%);
+  /* padding-left:593px; */
+  margin-bottom: 15px;
+}
+
+
+button {
+  background-color: #1b040f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #1b040f; 
+}
+
+.status {
+  color: #1b040f;
+  font-size: 1.1em;
+  padding-left: 10px;
+}
+
+.video-container, .audio-container {
+  margin-bottom: 20px;
+}
+
+form {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 500px;
+  text-align: left;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 2px solid #1b040f;
+  background-color: #fff;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #55031c;
+  box-shadow: 0 0 5px rgba(27, 4, 15, 0.5);
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('assests/red.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  background-color: rgba(150, 81, 81, 0.5); /* White with 50% transparency */
+}
+
+
+
+/* Media Section */
+.media-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Send Media Button */
+.send-media-btn {
+  background-color: #151213; /* Dark background */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  width: 100%;
+  max-width: 300px;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Hover Effect */
+.send-media-btn:hover {
+  background-color: #302c2d; /* Slightly lighter dark shade */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
+}
+
+/* Make Button Visible */
+.send-media-btn.show {
+  display: flex !important; /* Ensure visibility */
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Animation Effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+.contact-container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.contact-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.contact-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-card h6 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.contact-card p {
+  font-size: 1em;
+  color: #555;
+}
+
+.contact-card button {
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.contact-card button:hover {
+  background-color: #45a049;
+}
+p a, .register-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #151213;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+p  {
+  padding-left: 540px;
+}
+
+
+
+
+.signup-btn {
+  background-color: #1b040f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+.signup-btn :hover {
+  background-color: #1b040f; 
+}
+
+/* Login Link */
+.signin-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signin-link:hover {
+  text-decoration: underline;
+}
+
+
+
+
+

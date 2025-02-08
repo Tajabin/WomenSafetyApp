@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="auth-box">
+        <h3>Sign Up</h3>
+        <form action="register.php" method="POST">
+            <div class="field-group">
+                <input type="text" name="username" placeholder="Enter Username" required>
+            </div>
+            <div class="field-group">
+                <input type="email" name="email" placeholder="Enter Email" required>
+            </div>
+            <div class="field-group">
+                <input type="password" name="password" placeholder="Enter Password" required>
+            </div>
+            <button type="submit" class="signup-btn">Register</button>
+        </form>
+        <p>Already have an account? <a href="login.html" class="signin-link">Login here</a></p>
+    </div>
+</body>
+</html>
